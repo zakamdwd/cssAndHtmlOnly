@@ -1,0 +1,213 @@
+/*
+.top_container{
+
+  background-color: #baf0fb;
+  text-align: center;
+  padding-top: 100px;
+  /*font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+/*this is for non embeded if we want to embed font then use here or individually. here we have used individually.
+  */
+/*
+
+
+}
+p{
+  width: 20%;
+  margin: 0 auto 0 auto;
+}
+.bottom_cloud{
+  position: absolute;
+  left:250px;
+  top: 200px;
+}
+.top_cloud
+{
+  position: absolute;
+  right: 250px;
+}
+h1{position: relative;
+  top:40px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+p
+{
+  position:relative;
+  top: 30px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.mountain{
+  position: relative;
+  top: 60px;
+}
+*/
+/*   BETTER WAY OF DOING THIS */
+body {
+/*background-color: #baf0fb;*/
+  text-align: center;
+  margin:0;
+}
+
+.top_container {
+  background-color: #baf0fb;
+  text-align: center;
+
+  padding-top: 100px;
+
+
+
+}
+
+.mountain{
+  width: 40%;
+}
+
+.aprogrammer {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.top_cloud {
+  position: absolute;
+  width: 10%;
+  top: 50px;
+  right: 200px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  width: 10%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.profile {
+  padding: 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.about {
+  margin-left: 10;
+  width: 100%;
+}
+
+
+.skill-row1{
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+}
+
+
+
+
+
+
+.skill-row2{
+  width: 50%;
+text-align: left;
+  margin: 100px auto 100px auto;
+}
+
+.coding_img {
+  width: 30%;
+float: left;
+
+  margin-right: 30px;
+  margin-bottom: 50px;
+
+}
+.chillie_img{
+
+  width: 30%;
+float: right;
+
+  margin-top: 0;
+
+  margin-bottom: 25px;
+
+}
+.removethisfromfloatright{
+  clear: right;
+}
+.removethisfromfloatleft{
+  clear: left;
+}
+.middle-container{
+  background-color: white;
+  margin-left: 0;
+  width: 100%;
+  padding: 0;
+}
+.bottom_container{
+  background-color: #baf0fb;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+hr{
+  border-style:dotted;
+  border-bottom: none;
+  border-width:10px;
+  width: 4%;
+  border-color: #baf0fb;
+  margin: 50px auto;
+
+}
+
+
+
+.btn {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 62px;
+   -moz-border-radius: 62px;
+   border-radius: 62px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 37px 8px 17px 0 #000000;
+   -moz-box-shadow: 37px 8px 17px 0 #000000;
+   box-shadow: 37px 8px 17px 0 #000000;
+   text-shadow: 1px 1px 18px #000000;
+   border: outset #337FED 11px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 50px;
+}
+
+.btn:hover {
+   border: outset #7155F5 16px;
+   background: #1D0AF7;
+   background-image: -webkit-linear-gradient(top, #1D0AF7, #F5A055);
+   background-image: -moz-linear-gradient(top, #1D0AF7, #F5A055);
+   background-image: -ms-linear-gradient(top, #1D0AF7, #F5A055);
+   background-image: -o-linear-gradient(top, #1D0AF7, #F5A055);
+   background-image: -webkit-gradient(to bottom, #1D0AF7, #F5A055);
+   -webkit-border-radius: 62px;
+   -moz-border-radius: 62px;
+   border-radius: 62px;
+   text-decoration: none;
+}
